@@ -13,4 +13,6 @@ use Illuminate\Support\Facades\Route;
 |
 */
 
-Route::get('/', )->name('home');
+Route::get('/', 'TripController@index')->name('home');
+Route::get('/packs', 'TripController@packs')->name('packs');
+Route::get('/packInfo/{id}', 'TripController@packInfo')->name('packInfo');

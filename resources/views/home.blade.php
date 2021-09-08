@@ -1,12 +1,13 @@
 @extends('layouts.app')
 
-@section('title', 'movies')
+@section('title', 'home')
     
 @section('main_content')
 
 <div class="container">
     
-    <h2>home</h2>
+    <h2>homepage</h2>
+    <a href="{{route('packs')}}">vai al catalogo viaggi</a>
 
     
 </div>
